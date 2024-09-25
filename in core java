@@ -1,0 +1,15 @@
+public class HashMapDemo1{
+    public static void main(String[] args)
+    {
+        HashMap mySet=new HashMap();
+        mySet.put(100,"Ram:Hyderabad");
+        mySet.put(200,"Mannu:ongole");
+        mySet.put(300,"Raju:Nellore");
+        mySet.put(400,"Ravi:Bangalore");
+        mySet.put(null,"Wellcome");
+        mySet.put(500,null);
+
+        
+        System.out.println(mySet);
+        }
+}
